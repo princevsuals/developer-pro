@@ -129,8 +129,8 @@ body {
     color: hsl(0, 100%, 67%, 1);
     width: 85%;
     height: 30px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
 display: flex;
     background-color: hsl(0, 100%, 67%, 0.1);
     padding: 20px;
@@ -142,8 +142,8 @@ display: flex;
     background-color: hsl(39, 100%, 56%, 0.1);
     width: 85%;
     height: 30px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     padding: 20px;
     align-items: center;
     display: flex;
@@ -153,8 +153,8 @@ display: flex;
     color: hsl(166, 100%, 37%);
     width: 85%;
     height: 30px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     background-color: hsl(166, 100%, 37%, 0.1);
     padding: 20px;
     align-items: center;
@@ -164,8 +164,8 @@ display: flex;
 #visual {
     color: hsl(234, 85%, 45%);
     width: 85%;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     height: 30px;
     background-color: hsl(234, 85%, 45%, 0.1);
     padding: 20px;
@@ -199,3 +199,4 @@ button {
     margin-top: 30px;
     border: none;
 }
+
