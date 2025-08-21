@@ -125,14 +125,14 @@ body {
     font-size: 16px;
     font-weight: 700;
 display: flex;
-    background-color: hsl(0, 100%, 67%, 0.1);
+    background-color: hsl(0, 100%, 67%, 0.05);
     padding: 20px;
     align-items: center;
 }
 
 #memory {
     color: hsl(39, 100%, 56%, 1);
-    background-color: hsl(39, 100%, 56%, 0.1);
+    background-color: hsl(39, 100%, 56%, 0.05);
     width: 90%;
     height: 30px;
     font-size: 16px;
@@ -148,7 +148,7 @@ display: flex;
     height: 30px;
     font-size: 16px;
     font-weight: 700;
-    background-color: hsl(166, 100%, 37%, 0.1);
+    background-color: hsl(166, 100%, 37%, 0.05);
     padding: 20px;
     align-items: center;
     display: flex;
@@ -160,7 +160,7 @@ display: flex;
     font-size: 16px;
     font-weight: 700;
     height: 30px;
-    background-color: hsl(234, 85%, 45%, 0.1);
+    background-color: hsl(234, 85%, 45%, 0.05);
     padding: 20px;
     align-items: center;
     display: flex;
@@ -218,5 +218,81 @@ img {
     padding-right: 10px;
     margin-left: -4px;
 }
+@media(max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        position: fixed;
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 375px) {
+
+    .second-container,
+    .div {
+        width: 70%;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div {
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    .second-container {
+        border-radius: 0 0 40px 40px;
+        height: 49vh;
+        margin-top: -6%;
+    }
+
+    #great {
+        margin-top: -25px;
+    }
+
+    #paragraph {
+        margin-top: -55px;
+
+    }
+
+    .outline-one {
+        margin-left: 113px;
+    }
+
+    .outline-two {
+        margin-left: 115px;
+    }
+
+    .outline-three,
+    .outline-four {
+        margin-left: 130px;
+    }
+
+    .summary {
+        margin-left: 5px;
+        padding: 5px;
+    }
+
+    .div {
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+
+
+}
+
 
 
