@@ -114,7 +114,7 @@ main {
 
 #Reaction {
     color: hsl(0, 100%, 67%, 1);
-    width: 85%;
+    width: 75%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -222,3 +222,4 @@ img {
     padding-right: 10px;
     margin-left: -4px;
 }
+
