@@ -86,7 +86,7 @@ main {
 .second-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
@@ -222,5 +222,6 @@ img {
     padding-right: 10px;
     margin-left: -4px;
 }
+
 
 
