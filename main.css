@@ -12,6 +12,8 @@ body {
 main {
     background-color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     height: 110vh;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
@@ -24,7 +26,7 @@ main {
     text-align: center;
     height: 49%;
     width: 100%;
-    background: linear-gradient(to bottom, hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
+    background: linear-gradient(to bottom, hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1)) !important;
 }
 
 .circle {
@@ -112,7 +114,7 @@ main {
 
 #Reaction {
     color: hsl(0, 100%, 67%, 1);
-    width: 75%;
+    width: 85%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -125,7 +127,7 @@ main {
 #memory {
     color: hsl(39, 100%, 56%, 1);
     background-color: hsl(39, 100%, 56%, 0.05);
-    width: 75%;
+    width: 85%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -137,7 +139,7 @@ main {
 
 #verbal {
     color: hsl(166, 100%, 37%);
-    width: 75%;
+    width: 85%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -149,7 +151,7 @@ main {
 
 #visual {
     color: hsl(234, 85%, 45%);
-    width: 75%;
+    width: 85%;
     font-size: 20px;
     font-weight: 700;
 
@@ -188,7 +190,7 @@ main {
 
 .outline-four {
     margin-left: auto;
-    margin-right: -155px;
+    margin-right: -150px;
     color: black;
 }
 
@@ -196,7 +198,7 @@ main {
 button {
     color: white;
     background-color: hsl(224, 30%, 27%);
-    width: 85%;
+    width: 95%;
     height: 60px;
     display: flex;
     align-items: center;
