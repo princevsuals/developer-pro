@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&display=swap');
 
 body {
+    padding: 0px;
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,15 +32,16 @@ main {
 }
 
 .circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 100%;
     justify-content: center;
     align-items: center;
     margin: 0 auto 40px;
     flex-direction: column;
+    text-align: center;
     width: 90px;
     padding: 40px;
     height: 90px;
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 #heading {
@@ -88,6 +91,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 75%;
 
 }
 
@@ -99,7 +103,7 @@ main {
     font-weight: 500;
     padding: 10px;
     font-weight: 700;
-    margin-right: 270px;
+    margin-right: 310px;
 }
 
 .box {
@@ -114,7 +118,7 @@ main {
 
 #Reaction {
     color: hsl(0, 100%, 67%, 1);
-    width: 75%;
+    width: 100%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -127,7 +131,7 @@ main {
 #memory {
     color: hsl(39, 100%, 56%, 1);
     background-color: hsl(39, 100%, 56%, 0.05);
-    width: 75%;
+    width: 100%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -139,7 +143,7 @@ main {
 
 #verbal {
     color: hsl(166, 100%, 37%);
-    width: 75%;
+    width: 100%;
     height: 20px;
     font-size: 20px;
     font-weight: 700;
@@ -151,7 +155,7 @@ main {
 
 #visual {
     color: hsl(234, 85%, 45%);
-    width: 75%;
+    width: 100%;
     font-size: 20px;
     font-weight: 700;
 
@@ -172,33 +176,34 @@ main {
 
 .outline-one {
     margin-left: auto;
-    margin-right: -135px;
+    margin-right: -48%;
     color: black;
 }
 
 .outline-two {
     margin-left: auto;
-    margin-right: -135px;
+    margin-right: -48%;
     color: black;
 }
 
 .outline-three {
     margin-left: auto;
-    margin-right: -155px;
+    margin-right: -54%;
     color: black;
 }
 
 .outline-four {
     margin-left: auto;
-    margin-right: -150px;
+    margin-right: -54%;
     color: black;
 }
+
 
 
 button {
     color: white;
     background-color: hsl(224, 30%, 27%);
-    width: 95%;
+    width: 110%;
     height: 60px;
     display: flex;
     align-items: center;
@@ -222,6 +227,3 @@ img {
     padding-right: 10px;
     margin-left: -4px;
 }
-
-
-
